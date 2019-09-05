@@ -18,14 +18,21 @@ namespace Module2HomeWork
             
             Console.WriteLine("Your mythical creature is a: " + faveColor + " " + faveAnimal);
 
-            
 
+            Console.WriteLine("Are the words equal?");
 
+            if (faveAnimal.ToLower().Equals("faveAnimal.ToLower()"))
+            {
+                Console.WriteLine("Yes, they are equal!");
+            }
 
+            else
+            {
+                Console.WriteLine("No, they are not equal!");
+            }
            
 
-
-            
+                       
 
         
         }
