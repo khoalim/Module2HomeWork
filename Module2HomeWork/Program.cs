@@ -7,12 +7,23 @@ namespace Module2HomeWork
         static void Main(string[] args)
         {
             Console.WriteLine("What is your favorite color?");
-
-            Console.ReadLine();
+            string faveColor;            
+            faveColor = Console.ReadLine();
+            
 
             Console.WriteLine("What is your favorite animal?");
+            string faveAnimal;
+            faveAnimal = Console.ReadLine();
+                        
+            
+            Console.WriteLine("Your mythical creature is a: " + faveColor + " " + faveAnimal);
 
-            Console.ReadLine();
+            
+
+
+
+           
+
 
             
 
