@@ -21,7 +21,7 @@ namespace Module2HomeWork
 
             Console.WriteLine("Are the words equal?");
 
-            if (faveColor.ToLower().Equals("faveAnimal.ToLower()"))
+            if (faveColor.ToLower().Equals(faveAnimal.ToLower()))
             {
                 Console.WriteLine("Yes, they are equal!");
             }
@@ -40,7 +40,7 @@ namespace Module2HomeWork
             string passwordVerify;
             passwordVerify = Console.ReadLine();
 
-            if (password.ToLower().Equals("passwordVerify.ToLower()"))
+            if (password.ToLower().Equals(passwordVerify.ToLower()))
             {
                 Console.WriteLine("Success. Password Verified");
 
@@ -50,7 +50,23 @@ namespace Module2HomeWork
             {
                 Console.WriteLine("Your password is incorrect. Try again.");
             }
-                       
+
+           
+            Console.WriteLine("Please create a username.");
+            string userName;
+            userName = Console.ReadLine();
+            int userNameLength = userName.Length;
+                  
+                                        
+            if (userNameLength >= 8 && userName.ToLower().Contains("code")) {
+
+                Console.WriteLine("Welcome " + userName + "!");
+            }
+
+            else {
+
+                Console.WriteLine("Try Again. Must have 8 letters AND the word \"code\"");
+            }
 
         
         }
