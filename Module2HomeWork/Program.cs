@@ -21,7 +21,7 @@ namespace Module2HomeWork
 
             Console.WriteLine("Are the words equal?");
 
-            if (faveAnimal.ToLower().Equals("faveAnimal.ToLower()"))
+            if (faveColor.ToLower().Equals("faveAnimal.ToLower()"))
             {
                 Console.WriteLine("Yes, they are equal!");
             }
@@ -30,8 +30,26 @@ namespace Module2HomeWork
             {
                 Console.WriteLine("No, they are not equal!");
             }
-           
 
+
+            Console.WriteLine("Please create a password");
+            string password;
+            password = Console.ReadLine();
+
+            Console.WriteLine("Please re-enter password");
+            string passwordVerify;
+            passwordVerify = Console.ReadLine();
+
+            if (password.ToLower().Equals("passwordVerify.ToLower()"))
+            {
+                Console.WriteLine("Success. Password Verified");
+
+            }
+
+            else
+            {
+                Console.WriteLine("Your password is incorrect. Try again.");
+            }
                        
 
         
